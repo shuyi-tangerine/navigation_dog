@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="./resources/css/bootstrap.4.1.0.min.css">
+    <script type="text/javascript" src="./resources/js/jquery.3.2.1.min.js"></script>
+    <script type="text/javascript" src="./resources/js/popper.1.12.5.min.js"></script>
+    <script type="text/javascript" src="./resources/js/bootstrap.4.1.0.min.js"></script>
+    <script type="text/javascript" src="./resources/js/vue.2.2.2.min.js"></script>
+    <script type="text/javascript" src="./resources/js/vue-resource.1.5.1.min.js"></script>
+    <script type="text/javascript" src="./resources/js/CommonJS.js"></script>
+    <style type="text/css">
+        body {
+            background-image: url('./resources/images/snow-scenery.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            overflow: hidden;
+        }
+        .whirlDiv {
+            position: relative;
+            margin: 0 auto;
+            width: 600px;
+            height: 600px;
+            top: 50px;
+        }
+        .whirlCanvasDiv {
+            position: absolute;
+            z-index: 1;
+        }
+        .whirlInnerDiv {
+            position: absolute;
+            top: 180px;
+            left: 130px;
+            z-index: 2;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            dropDown('app', './resources/images/snowflake.png');
+            whirl('whirlCanvas');
+        })
+    </script>
+</head>
+<body style="text-align: center;">
+<div id="app" class="container">
+    <div class="whirlDiv">
+        <div class="whirlCanvasDiv">
+            <canvas id='whirlCanvas' width=600 height=600></canvas>
+        </div>
+        <div class="whirlInnerDiv">
+            <h2>靓仔出行，暴富指日可待！</h2>
+            <p style="text-align: right;">2023年05月09日23:32:58<br>—— 陈舒毅</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

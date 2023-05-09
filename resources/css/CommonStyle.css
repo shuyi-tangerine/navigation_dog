@@ -1,0 +1,112 @@
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+a:link {
+    color: gray;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    text-decoration: underline;
+    color: #FF00FF;
+}
+a:active {
+    color: deeppink;
+}
+
+div.a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #9e9e9e;
+    border: 1px #CCCCCC solid;
+    -moz-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+}
+div.a:link {
+
+}
+div.a:visited {
+    
+}
+div.a:hover {
+    cursor: pointer;
+    color: #0000F0;
+    background-color: #FFFFBF;
+}
+div.a:active {
+    color: red;
+    background-color: pink;
+}
+
+label.a {
+    color: gray;
+    text-decoration: none;
+}
+label.a:link {
+    color: gray;
+}
+label.a:visited {
+    color: gray;
+}
+label.a:hover {
+    color: #FF00FF;
+    text-decoration: underline;
+}
+label.a:active {
+    color: deeppink;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    border: 0px #969791 solid;
+}
+
+table tr {
+    border: 0px #969791 solid;
+}
+table tr td {
+    border: 0px #969791 solid;
+}
+
+div.win {
+    background-color: beige;
+    position: absolute;
+    padding: 20px;
+    border: 1px #969791 dotted;
+    display: none;
+}
+
+table#content {
+    border-width: 1px;
+    margin:0 auto;
+}
+table#content tr {
+    border-width: 1px;
+}
+table#content tr td {
+    border-width: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
