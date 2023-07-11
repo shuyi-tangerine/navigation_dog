@@ -32,26 +32,39 @@
         .whirlInnerDiv {
             position: absolute;
             top: 180px;
-            left: 130px;
+            left: 85px;
             z-index: 2;
+            text-align: center;
         }
     </style>
     <script type="text/javascript">
         $(document).ready(function() {
             dropDown('app', './resources/images/snowflake.png');
             whirl('whirlCanvas');
+        });
+        new Vue({
+            el: '#app',
+            methods: {
+                goToNavigation: function (message) {
+                    alert(message)
+                }
+            }
         })
     </script>
 </head>
-<body style="text-align: center;">
-<div id="app" class="container">
+<body>
+<div id="app">
     <div class="whirlDiv">
         <div class="whirlCanvasDiv">
             <canvas id='whirlCanvas' width=600 height=600></canvas>
         </div>
         <div class="whirlInnerDiv">
-            <h2>靓仔出行，暴富指日可待！</h2>
-            <p style="text-align: right;">2023年05月09日23:32:58<br>—— 陈舒毅</p>
+            <h2>火星竹智能科技责任有限公司</h2>
+            <p>定位：虚拟公司，体验不一样的0->1的创业</p>
+            <p>方向：提效小工具、个人助手</p>
+            <p>愿景：丰富生活、知识自由、转型实体公司</p>
+            <p>公司小名：火星、竹林，助手小名字：小竹、竹子、小竹子</p>
+            <p style="text-align: right;">始于2023年07月11日23:52:50<br>—— 陈舒毅</p>
         </div>
     </div>
 </div>
